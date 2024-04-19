@@ -1,0 +1,69 @@
+/* styles.css */
+
+
+.title {
+  color: turquoise;
+}
+
+.nav-link {
+  color: turquoise;
+}
+
+/* Body background color */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Form input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff; /* White background for form elements */
+  color: #000; /* Black text color for form elements */
+}
+
+/* Form submit button */
+input[type="submit"] {
+  background-color: #40E0D0;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Form submit button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* styles.css */
+
+.site-title {
+  font-size: 36px; /* Adjust the font size as needed */
+}

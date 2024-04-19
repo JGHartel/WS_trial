@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    /* Custom CSS for title color */
+    h1.title {
+      color: turquoise;
+      text-align: center; /* Center the title */
+    }
+    /* Hide footer */
+    footer {
+      display: none;
+    }
+    /* Style for navigation links */
+    nav a {
+      color: turquoise;
+      text-decoration: none;
+      margin-right: 20px; /* Adjust spacing between links */
+    }
+    nav a:hover {
+      text-decoration: underline; /* Add underline on hover */
+    }
+    /* Set black background for all pages */
+    body {
+      background-color: black;
+      color: white; /* Set text color to white for better contrast */
+      font-family: Arial, sans-serif; /* Set font family for better readability */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+    /* Center the content */
+    .container {
+      max-width: 800px;
+      margin: 0 auto; /* Center the container horizontally */
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <!-- Add more navigation links as needed -->
+  </nav>
+  <h1 class="title">{{ page.title }}</h1>
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+</html>
